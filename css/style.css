@@ -347,7 +347,8 @@ label {
 /*-- banner --*/
 
 .carousel .item {
-    background: url(../images/principales/1.jpg) no-repeat center;
+   background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/principales/1.jpg)  no-repeat center;
+
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -356,16 +357,18 @@ label {
 }
 
 .carousel .item.item2 {
-    background: url(../images/principales/2.jpg) no-repeat center;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/principales/2.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+
     -ms-background-size: cover;
 }
 
+
 .carousel .item.item3 {
-    background: url(../images/principales/3.jpg) no-repeat center;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/principales/3.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -374,7 +377,7 @@ label {
 }
 
 .carousel .item.item4 {
-    background: url(../images/principales/4.jpg) no-repeat center;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/principales/4.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -382,7 +385,7 @@ label {
     -ms-background-size: cover;
 }
 .carousel .item.item5 {
-    background: url(../images/principales/5.jpg) no-repeat center;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/principales/5.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -390,7 +393,7 @@ label {
     -ms-background-size: cover;
 }
 .carousel .item.item6 {
-    background: url(../images/principales/6.jpg) no-repeat center;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/principales/6.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -398,7 +401,7 @@ label {
     -ms-background-size: cover;
 }
 .carousel .item.item7 {
-    background: url(../images/principales/7.jpg) no-repeat center;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/principales/7.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -406,7 +409,7 @@ label {
     -ms-background-size: cover;
 }
 .carousel .item.item8 {
-    background: url(https://mega.nz/#!ipUx3TIZ!mhMtL_43qhbuJ_sQvM9B-bJ1dZ2kJfQntkYVeYtQLvs) no-repeat center;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(https://mega.nz/#!ipUx3TIZ!mhMtL_43qhbuJ_sQvM9B-bJ1dZ2kJfQntkYVeYtQLvs) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -414,7 +417,7 @@ label {
     -ms-background-size: cover;
 }
 .carousel .item.item9 {
-    background: url(../images/principales/5.jpg) no-repeat center;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/principales/5.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -422,7 +425,7 @@ label {
     -ms-background-size: cover;
 }
 .carousel .item.item10 {
-    background: url(../images/principales/4.jpg) no-repeat center;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/principales/4.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1449,6 +1452,17 @@ a.button-style:hover {
     -ms-background-size: cover;
     min-height: 300px;
 }
+.inner_page_agile-artesania {
+    text-align: center;
+    background: url(../images/banners/artesania.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    min-height: 300px;
+}
+
 
 
 .inner_page_agile-principales-fiestas-sanjuan {
@@ -1730,7 +1744,7 @@ li.aitsaitsresumewthreeli-1 {
 }
 
 .blog-grid-img img {
-    border-radius: 30%;
+    border-radius: 10%;
 }
 
 
