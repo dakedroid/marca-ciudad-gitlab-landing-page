@@ -567,7 +567,7 @@ h3.tittle span {
 /*-- stats --*/
 
 .stats-info-agile {
-    background: url(../images/principales/3.jpg) no-repeat center;
+    background: url(../images/principales/2.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -738,7 +738,15 @@ h3.tittle span {
     background-size: cover;
     min-height: 200px;
     border-radius: 15%;
+    box-shadow: 0px 5px 8px #1571B7;
 }
+.news-left-img:hover{
+
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
 
 
 
@@ -1026,7 +1034,7 @@ h3.tittle span {
 /* middle section */
 
 .middle-sec-agile {
-    background: url(../images/principales/6.jpg) no-repeat center;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/principales/6.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
