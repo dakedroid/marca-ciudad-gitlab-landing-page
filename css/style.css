@@ -1126,7 +1126,8 @@ a.button-style:hover {
 /*-- footer --*/
 
 .mkl_footer {
-    background: url(../images/principales/7.jpg) no-repeat center;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),  url(../images/principales/7.jpg)  no-repeat center;
+
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1851,9 +1852,13 @@ label.header {
 /*-- gallery --*/
 
 .agile-figcaption {
-    background: #000;
+    background: #fffff;
+    display: inline-block;
+    border-radius: 50%;
+    width: 115px;
+    height: 115px;
     text-align: center;
-    padding: 12px 0;
+    padding: 20px 0;
     -webkit-transition: .5s all;
     -moz-transition: .5s all;
     transition: .5s all;
@@ -1874,9 +1879,9 @@ label.header {
 }
 
 .agile-figcaption h4 {
-    font-size: 22px;
+    font-size: 15px;
     margin-bottom: .3em;
-    color: #fff;
+    color: #000000;
     font-weight: 400;
     letter-spacing: 1px;
 }
