@@ -1851,7 +1851,7 @@ label.header {
 
 /*-- gallery --*/
 
-.agile-figcaption {
+.agile-figcaption2 {
     background: #fffff;
     display: inline-block;
     border-radius: 50%;
@@ -1865,7 +1865,23 @@ label.header {
     margin-bottom: 26px;
 }
 
+.agile-figcaption {
+    background: #000;
+    text-align: center;
+    padding: 12px 0;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    transition: .5s all;
+    margin-bottom: 26px;
+}
+
 .agile-figcaption:hover {
+    background: #ef5861;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    transition: .5s all;
+}
+.agile-figcaption2:hover {
     background: #ef5861;
     -webkit-transition: .5s all;
     -moz-transition: .5s all;
@@ -1879,6 +1895,14 @@ label.header {
 }
 
 .agile-figcaption h4 {
+    font-size: 22px;
+    margin-bottom: .3em;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.agile-figcaption2 h4{
     font-size: 15px;
     margin-bottom: .3em;
     color: #000000;
